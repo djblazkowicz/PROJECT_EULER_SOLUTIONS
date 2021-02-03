@@ -20,7 +20,9 @@ int main(int argc, char **argv)
 
     printf (" stop : %d \n", (int ) (t = clock () -t));
 
-    printf (" Elapsed : %f seconds \n", ( double ) t / CLOCKS_PER_SEC ) ;
+    printf ("%f seconds\n", ( double ) t / CLOCKS_PER_SEC ) ;
+    
+    printf (" INPUT SIZE : %d\n", input);
 
     return 0;
 }
